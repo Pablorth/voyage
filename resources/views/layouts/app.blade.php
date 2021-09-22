@@ -11,7 +11,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset(././css/app.css') }}" rel="stylesheet">
 
     </head>
     <body>
@@ -192,11 +192,11 @@
     </body>
     <!-- Scripts -->
     <!-- jquery plugins here-->
-    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="././js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="././js/popper.min.js"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="././js/bootstrap.min.js"></script>
     <!-- magnific js -->
     <script src="js/jquery.magnific-popup.js"></script>
     <!-- swiper js -->

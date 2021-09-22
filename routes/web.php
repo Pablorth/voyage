@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// --acceuil
+Route::get('/', 'StaticController@index');
+Route::get('/trips', 'StaticController@trips');
+Route::get('/trip', 'StaticController@trip');
+
+Route::get('/aboutus', function () {
+    return view('about.aboutus');
+});
+
+Route::get('/contact', function () {
+    return view('about.contact');
 });

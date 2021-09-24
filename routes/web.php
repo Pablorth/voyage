@@ -14,14 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 // --acceuil
-Route::get('/', 'StaticController@index')->name('voyage/home');
-Route::get('trips', 'StaticController@trips')->name('voyage/trips');
-Route::get('trip', 'StaticController@trip')->name('voyage/trip');
+Route::get('/', 'StaticController@index');
+Route::get('trips', 'StaticController@trips');
+Route::get('trip', 'StaticController@trip');
 
-Route::get('/aboutus', function () {
-    return view('about.aboutus')->name('voyage/aboutus');
+Route::get('aboutus', function () {
+    return view('about.aboutus');
 });
 
 Route::get('contact', function () {
-    return view('about.contact')->name('voyage/contact');
+    return view('about.contact');
 });
+
+Route::resource('voyages', 'VoyageController');

@@ -11,7 +11,21 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/flaticon.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/font-awsome.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/gijgo.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/nice-select.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/slick.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+        <link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/themify-icon.css') }}" rel="stylesheet">
+
 
     </head>
     <body>

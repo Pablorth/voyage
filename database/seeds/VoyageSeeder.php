@@ -1,8 +1,9 @@
 <?php
 
+use App\Voyage;
 use Illuminate\Database\Seeder;
 
-class SpellCategoriesSeeder extends Seeder
+class VoyageSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +12,6 @@ class SpellCategoriesSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Voyage::factory()->count(4)->create();
     }
 }
